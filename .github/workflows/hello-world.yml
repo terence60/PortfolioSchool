@@ -1,15 +1,15 @@
-name: Hello World Workflow
+name: Hello World Worflow
 
-on:
+on: 
     push:
-        branches:["main"]
+        branches: [ "Brakissa-Sophia" ]
 
-jobs:
-    hello-world job:
-    runs-on: ubuntu-latest
-    steps:
-        -name: Checkout code
-        uses: actions/checkout@vd
+jobs: 
+    hello-world-job:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Checkout code
+          uses: actions/checkout@v4
 
-        -name: Say Hello
-        run: echo "Hello, World!"
+        - name: Say hello
+          run: echo "Hello, World !"
