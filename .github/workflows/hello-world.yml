@@ -2,7 +2,7 @@ name: Hello World Worflow
 
 on: 
     push:
-        branches: [ "main" ]
+        branches: [ "Nassim" ]
 
 jobs: 
     hello-world-job:
